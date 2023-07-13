@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="signin.css">
+    <link rel="shortcut icon" href="../imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <title>best weight</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: linear-gradient(rgba(0, 0, 0, 0.322),rgba(0, 0, 0, 0.151)),url(../imgs/signbg.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        
+        /* nav bar */
+        nav , .dropdown-menu{
+            background-color: black !important;
+        }
+        
+        .nav-item , .nav-link , .dropdown-item{
+            color: white !important;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .nav-link:hover{
+            color: rgb(0, 4, 240) !important;
+        }
+
+        .dropdown-item:hover{
+            color: rgb(0, 4, 240) !important;
+        }
+        .navbar-toggler , .navbar-toggler-icon{
+            background-color: white !important;
+        }
+
+        @media (min-width:1000px) {
+            .navbar-nav{
+                margin-left: 100px;
+            }
+        }
+        /* end nav bar */
+
+        /*sign in part*/
+        .form{
+            margin: 200px 0px;
+            border-radius: 20px !important;
+            height: 500px;
+        }
+        form .container{
+            background-color: rgba(0, 0, 0, 0.637);
+            border-radius: 20px !important;
+            color: white;
+            padding: 100px 0;
+        }
+
+        label{
+            font-size: 20px;
+            font-weight: bold;
+
+        }
+
+        input{
+            width: 300px;
+            border-radius: 20px;
+            border-color: rgb(116, 19, 6);
+            border-style: solid;
+            border-width: 5px;
+            background-color: transparent !important;
+            outline: none;
+            color: white;
+            text-align: center;
+        }
+
+        input:focus{
+            border-color: rgb(6, 57, 116);
+        }
+        /*end sign in part*/
+
+        
+        /* footer */
+
+
+        footer{
+            position: relative !important;
+            bottom: 0;
+            right: 0;
+            left: 0;
+          }
+          @media (min-width:1000px) {
+            footer{
+                height: 500px !important;
+            }
+          }
+  
+          section{
+            color:white !important;
+          }
+  
+          a{
+            text-decoration: none !important;
+          }
+  
+          a:hover{
+            color:blue !important;
+          }
+  
+          
+  
+  /* end footer */
+    </style>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid container">
+        <a class="navbar-brand" href="home.html"><img src="../imgs/logo.png" alt="" width="70px" height="60px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../bodybuild.html">body-building</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../fight.html">fight</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="../fitness.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                fitness
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../fitness.html#zumba">zumbaa</a></li>
+                <li><a class="dropdown-item" href="../fitness.html#yoga">yoga</a></li>
+                <li><a class="dropdown-item" href="../fitness.html#fitness">fitness</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../aboutus.html">about us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">log out</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex" role="search">
+            <button class="btn btn-danger"  style="margin-right: 20px;"><a href="signup.html" style="color: white;">sign up</a></button>
+            <button class="btn btn-outline-danger" ><a href="signin.html" style="color: white;">sign in</a></button>
+          </form> -->
+        </div>
+      </div>
+    </nav>
+  <!-- navbar -->
+
+    <!-- sign in section -->
+    <form class="form" action="" method="post" style="padding-bottom:50px;">
+        <center>
+            <div class="container">
+                <div class="row">
+
+
+                    <h1 style="margin-bottom: 70px;" >enter your weight , height and age to help the coach to provide you with diet</h1>
+                   
+
+
+                    <div class="col-sm-12">
+                        <p class="label">
+                            <label for="">weight</label>
+                        </p>
+
+                        <p class="input"><input type="number" name="" id=""></p>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <p class="label">
+                            <label for="">height</label>
+                        </p>
+
+                        <p class="input"><input type="number" name="" id=""></p>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <p class="label">
+                            <label for="">age</label>
+                        </p>
+
+                        <p class="input"><input type="number" name="" id=""></p>
+                    </div>
+
+                    <div class="col-sm-12">
+                       <button class="btn btn-danger" style="width: 200px; margin-bottom:20px;">submit</button>
+                       <br>
+                       <p>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          calculate best weight
+                        </button>
+                      </p>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body" style="color: black;">
+                          your best weight is :65kg
+                        </div>
+                      </div>
+                    </div>
+
+                    <center><button class="btn btn-danger" style="width: 200px; margin-bottom:20px;"><i class="fa fa-whatsapp"></i>contact with coach</button></center>
+
+                    
+
+
+                </div>
+            </div>
+        </center>
+
+
+       
+    </form>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- end sign in section -->
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-muted">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fa fa-gem me-3"><img src="../imgs/logo.png" alt="" width="40px" height="40px"></i>ROCK GYM
+              </h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Repellendus architecto labore assumenda temporibus minima facere deleniti
+                 perferendis beatae alias voluptatem? Sint laborum autem ea doloremque voluptatibus
+                  dolor ullam sed inventore!
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                workouts
+              </h6>
+              <p>
+                <a href="../bodybuild.html" class="text-reset">body building</a>
+              </p>
+              <p>
+                <a href="../fight.html" class="text-reset">fight games</a>
+              </p>
+              <p>
+                <a href="../fitness.html#zumba" class="text-reset">zomba</a>
+              </p>
+              <p>
+                <a href="../fitness.html#yoga" class="text-reset">yoga</a>
+              </p>
+              <p>
+                <a href="../fitness.html#fitness" class="text-reset">fitness</a>
+              </p>
+             
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h6>
+              <p>
+                <a href="../home.html" class="text-reset">Home</a>
+              </p>
+              <p>
+                <a href="../bodybuild.html" class="text-reset">body building</a>
+              </p>
+              <p>
+                <a href="../fight.html" class="text-reset">fight games</a>
+              </p>
+              <p>
+                <a href="../fitness.html" class="text-reset">fitness</a>
+              </p>
+    
+              <p>
+                <a href="../aboutus.html" class="text-reset">about us</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fa fa-home me-3"></i> DOKKI, GIZA, EGYPT</p>
+              <p>
+                <i class="fa fa-envelope me-3"></i>
+                info@example.com
+              </p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    
+      <!-- Copyright -->
+     
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+        <!-- end footer -->
+    
+
+
+
+
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/jquery.js"></script>
+        <script src="../js/bootstrap.js"></script>
+</body>
+</html>

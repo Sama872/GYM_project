@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* nav bar */
+nav , .dropdown-menu{
+    background-color: black !important;
+}
+
+.nav-item , .nav-link , .dropdown-item{
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nav-link:hover{
+    color: rgb(0, 4, 240) !important;
+}
+
+.dropdown-item:hover{
+    color: rgb(0, 4, 240) !important;
+}
+.navbar-toggler , .navbar-toggler-icon{
+    background-color: white !important;
+}
+
+
+/*end navbar*/
+h1{
+    
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 150px;
+    
+}
+a.btn{
+    color:white;
+    margin-left: 510px;
+    margin-top: 100px;
+    width: 100px;
+    text-shadow: 2px 2px darkred;
+    
+}
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+    
+}
+
+
+
+.parent .two,.four,.six{
+    padding: 7px;
+    margin: 7px;
+    box-shadow: 4px 4px 4px 4px lightgray;
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    background-color:white;
+
+}
+.parent .one,.three,.five{
+    
+    background-color:white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 7px;
+    box-shadow: 4px 4px 4px 4px lightgray;
+    width: 400px;
+    height: 400px;
+    
+
+    
+
+}
+video{
+    border-radius: 5px;
+}
+h1.fle{
+    /*background-image: url("gray-painted-background_53876-94041.jpg");
+    border-radius: 50%;
+    width: 220px;
+    height:220px;
+    margin-left: 90px;
+    margin-top: 50px;*/
+    /*text-shadow: 4px 4px 2px gray;*/
+    text-align: center;
+    color:slategrey;
+}
+h1.fle:hover{
+    color:lightblue;
+    
+}
+div.btn{
+    margin-left:150px;
+    width: 100px;
+}
+/* footer */
+
+
+footer{
+    position: relative !important;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+@media (min-width:1000px) {
+    footer{
+        height: 500px !important;
+    }
+}
+
+section{
+    color:white !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:hover{
+    color:blue !important;
+}
+
+
+
+/* end footer */
+@media (min-width:1000px) {
+    .navbar-nav{
+        margin-left: 100px;
+    }
+}
